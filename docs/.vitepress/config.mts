@@ -41,6 +41,10 @@ export default defineConfig({
       removePrefixAfterOrdering: false, // 是否删除前缀
       prefixSeparator: '.', // 前缀分隔符
     }),
+    editLink: {
+      pattern: 'https://github.com/MysGln/wiki/tree/main/docs/:path',
+      text: '在 GitHub 上编辑此页' // 自定义按钮文字
+    },
   },
   markdown: {
     image: {

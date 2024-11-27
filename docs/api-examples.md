@@ -1,5 +1,6 @@
 ---
 outline: deep
+editLink: true
 ---
 
 # Runtime API Examples
