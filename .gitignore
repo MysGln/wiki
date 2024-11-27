@@ -16,4 +16,5 @@ docs/.vitepress/dist/
 # 忽略 npm debug 日志和锁文件
 npm-debug.log*
 yarn.lock
+.env
 
