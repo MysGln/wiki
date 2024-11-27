@@ -15,11 +15,21 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 编程入门
+    details: C++、Python、Scratch 入门
+    theme: brand
+    link: /markdown-examples
+  - title: 算法基础
+    details: 适用于 NOIP/CSP 的基础算法课程
+    theme: brand
+    link: /markdown-examples
+  - title: 竞赛介绍
+    details: 国内外赛事介绍
+    theme: brand
+    link: /markdown-examples
+  - title: 题解
+    theme: brand
+    link: /markdown-examples
+    details: 周赛题解
 ---
 
