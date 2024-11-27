@@ -17,4 +17,9 @@ docs/.vitepress/dist/
 npm-debug.log*
 yarn.lock
 .env
+# 忽略缓存文件和依赖库
+/cache/
+/node_modules/
+*.js
+*.map
 
