@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './configs/nav'
 import { generateSidebar } from 'vitepress-sidebar';
+
 // console.log('Imported nav:', nav); // 输出 nav 内容
 
 const vitepressSidebarOptions = {
@@ -14,6 +15,7 @@ const vitepressSidebarOptions = {
 
 // 导出 VitePress 配置
 export default defineConfig({
+  cleanUrls: true,
   title: 'Engeeker wiki',
   description: 'A VitePress Site',
   lastUpdated: true, // 开启最后更新时间
