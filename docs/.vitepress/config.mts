@@ -83,8 +83,16 @@ const vitePressOptions = {
   },
   markdown: {
     image: {
-      lazyLoading: true,  // 图片懒加载
+      lazyLoading: true, // 启用图片懒加载
     },
+    math: {
+      renderers: {
+        math: 'mathjax3',
+        inlineMath: 'mathjax3',
+        // math: 'katex',
+        // inlineMath: 'katex',
+      },
+    },  // 启用数学公式渲染
   },
 }
 
