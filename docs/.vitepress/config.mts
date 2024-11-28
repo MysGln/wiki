@@ -120,6 +120,15 @@ export default defineConfig(
       collapseDepth: 2, //折叠组2级菜单
       resolvePath: '/Python/',
       useTitleFromFileHeading: true,      
-    }
+    },
+    {
+      documentRootPath: 'docs',
+      scanStartPath: 'docs',
+      // basePath: '/solves/',
+      collapsed: true, //折叠组关闭
+      collapseDepth: 2, //折叠组2级菜单
+      resolvePath: '/docs/',
+      useTitleFromFileHeading: true,      
+    },
   ])
 );
