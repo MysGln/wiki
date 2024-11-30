@@ -4,15 +4,17 @@ layout: home
 
 hero:
   name: "Engeeker wiki"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  text: "计算机科学讲义"
+  tagline: 如果你有一些建议或者想要完善此 WIKI ，请点击下方的 GitHub 按钮查看我们的仓库提交 issue 或者 PR ！
+  # image:
+  #   src: ../public/LOGO.png
+  # actions:
+  #   - theme: brand
+  #     text: Markdown Examples
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /api-examples
 
 features:
   - title: 编程入门

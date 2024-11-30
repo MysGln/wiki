@@ -2,14 +2,15 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
+  
   { text: '首页', link: '/' },
   { 
     text: '章节',
     items: [
-      { text: '编程入门', link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'},
-      { text: '算法基础', link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'},
-      { text: '竞赛介绍', link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'},
-      { text: '周赛题解', link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md  '},
+      { text: '编程入门', link: '/markdown-examples'},
+      { text: '算法基础', link: '/markdown-examples'},
+      { text: '竞赛介绍', link: '/markdown-examples'},
+      { text: '周赛题解', link: '/solves/index/'},
     ]
   },
   // {
