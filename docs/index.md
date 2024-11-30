@@ -37,5 +37,9 @@ features:
     theme: brand
     link: /solves/index/
     details: 周赛题解
+  - title: USACO竞赛
+    theme: brand
+    link: /usaco/index
+    details: USACO 竞赛资源
 ---
 
