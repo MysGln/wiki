@@ -69,7 +69,8 @@ const vitePressOptions = {
 const vitePressSidebarOptions = {
   documentRootPath: '../docs',  // 文档根目录，相对路径
   collapsed: true,  // 不折叠组
-  useFolderTitleFromIndexFile: false,
+  useFolderTitleFromIndexFile: true,
+  // includeFolderIndexFile: true,
   useFolderLinkFromIndexFile: true,
   collapseDepth: 2,  // 折叠组显示的最大层级
   removePrefixAfterOrdering: false,  // 是否删除前缀
@@ -79,7 +80,8 @@ const vitePressSidebarOptions = {
     'usaco/Bronze/:page': 'Bronze/:page',
     'usaco/Silver/:page': 'Silver/:page',
     'usaco/Gold/:page': 'Gold/:page',
-    'solves/2024/11:page': '11/:page'
+    'solves/2024/11:page': '11/:page',
+    'solves/2024/12:page': '12/:page',
   }
 }
 
