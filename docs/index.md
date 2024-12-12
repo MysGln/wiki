@@ -35,7 +35,7 @@ features:
     link: /markdown-examples
   - title: 题解
     theme: brand
-    link: /solves/
+    link: /solves/index
     details: 周赛题解
   - title: USACO竞赛
     theme: brand
