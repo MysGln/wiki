@@ -91,7 +91,7 @@ export default defineConfig(
       documentRootPath: 'docs',
       scanStartPath: 'solves',
       collapsed: true,
-      collapseDepth: 2,
+      collapseDepth: 1,
       resolvePath: '/solves/',
       useTitleFromFileHeading: true,
     },
@@ -107,7 +107,7 @@ export default defineConfig(
       documentRootPath: 'docs',
       scanStartPath: 'Python',
       collapsed: true,
-      collapseDepth: 2,
+      collapseDepth: 1,
       resolvePath: '/Python/',
       useTitleFromFileHeading: true,
     }

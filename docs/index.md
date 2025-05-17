@@ -28,7 +28,7 @@ features:
   - title: Python 游戏编程
     details: 使用 Python 开发简单的2D游戏
     theme: brand
-    link: /Python/fly_bird
+    link: /Python
   - title: 竞赛介绍
     details: 国内外赛事介绍
     theme: brand
